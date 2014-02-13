@@ -18,10 +18,15 @@ body{
 	font-family: NSimSun, SimSun;
 	font-weight: bold;
 	cursor: pointer;
+	z-index: 9;
+	opacity: 0.5;
 }
 .scrollbtn.upbtn{
 	top: 10px;
 	bottom: auto;
+}
+.scrollbtn:hover{
+	opacity: 0.8;
 }
 .screen{
 	box-sizing: border-box;
