@@ -1,0 +1,70 @@
+/* @reset */
+body{
+	font-family: Verdana, "Microsoft YaHei", NSimSun, SimSun;
+	background-color: #f0f0f0;
+}
+
+.scrollbtn{
+	position: fixed;
+	right: 10px;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+	background-color: #999;
+	bottom: 10px;
+	font-size: 20px;
+	font-family: NSimSun, SimSun;
+	font-weight: bold;
+	cursor: pointer;
+}
+.scrollbtn.upbtn{
+	top: 10px;
+	bottom: auto;
+}
+.screen{
+	box-sizing: border-box;
+	min-height: 600px;
+	border-top: solid 1px #fff;
+	border-bottom: solid 1px #ccc;
+}
+.screen:nth-of-type(even){
+	background-color: #eaeaea;
+}
+.wrap{
+	margin: auto;
+	position: relative;
+	width: 1000px;
+	height: 600px;
+	color: #525252;
+	letter-spacing: 1px;
+	font-size: 16px;
+	line-height: 36px;
+	background-color: #fff;
+}
+h1{
+	height: 100%;
+	line-height: 400px;
+	text-align: center;
+	font-size: 28px;
+}
+.title{
+	text-align: right;
+	font-size: 18px;
+	color: #999;
+	height: 39px;
+	letter-spacing: 2px;
+	border-bottom: dashed 1px #e0e0e0;
+}
+.content{
+	padding: 20px;
+}
+.map{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+.map img{
+	display: block;
+}
